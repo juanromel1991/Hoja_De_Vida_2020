@@ -1,0 +1,181 @@
+/**{
+  box-sizing: border-box;
+}*/
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0 auto;
+  }
+  
+
+  .skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+  }
+  
+  .skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  
+  .skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  
+  .skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+  }
+  
+  .skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
+    
+  }
+
+   /* Ajustando para dispostivos*/
+
+   [class*="col-"] {
+     width: 100%;
+   }
+  
+   /* Media query laptop */
+
+   /*@media only screen and (min-width: 768px){
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+   }*/
+
+   #encabezado{
+     width: auto;
+     height: auto;
+     margin: 10px;
+   }
+
+   
+
+   #perfil p{
+     text-align: justify;
+     margin: 5px;
+   }
+
+   #perfil{
+     text-align: center;
+     margin-top: 15px;
+     padding: 15px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 5px;
+   }
+
+   .col-4{
+     text-align: center;
+     margin-top: auto;
+   }
+
+   /*imagenes breakpoint*/
+   
+   #experiencia{
+     margin: .5vw;
+     display: -ms-flexbox;
+     -ms-flexbox-wrap: wrap;
+     -ms-flexbox-direction: column;
+     -webkit-flex-flow: row wrap;
+     flex-flow: row wrap;
+     display: -webkit-box;
+     display: flex;
+   }
+
+   .col-4{
+     -webkit-box-flex: auto;
+     -ms-flex:auto;
+     flex:auto;
+     width: 200px;
+     margin: .5vw;
+   }
+
+   .container{
+     width: 100%;
+     height: auto;
+   }
+
+   .col-xl-4{
+     text-align: center;
+   }
+
+#Habilidades{
+  margin: 15px;
+  width: auto;
+  height: auto;
+
+}
+/* estilos de los link */
+a:link{
+ columns: #676767;;
+}
+a:visited{
+  color:#ffffff;
+}
+a:active{
+  color:yellow;
+}
